@@ -1,34 +1,61 @@
+
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+import sys
 
 
 class ChatNode(Node):
 
-    def __init__(self):
+    def __init__(self, username):
         super().__init__('chat_node')
 
-        self.publisher = self.create_publisher(String, 'chat', 10)
-        self.timer = self.create_timer(2.0, self.send_message)
+        self.username = username
 
-        self.get_logger().info("Chat node started")
+        self.publisher = self.create_publisher(String, 'chat', 10)
+
+        self.subscription = self.create_subscription(
+            String,
+            'chat',
+            self.receive_message,
+            10
+        )
+
+        self.get_logger().info(f"{self.username} is online")
 
     def send_message(self):
+        message = input(f"[{self.username}]: ")
+
         msg = String()
-        msg.data = "Hello from node"
+        msg.data = f"{self.username}:{message}"
+
         self.publisher.publish(msg)
 
-        self.get_logger().info("Message sent")
+    def receive_message(self, msg):
+        sender, message = msg.data.split(":", 1)
+
+        if sender != self.username:
+            print(f"[{sender}]: {message}")
 
 
 def main():
     rclpy.init()
-    node = ChatNode()
-    rclpy.spin(node)
+
+    if len(sys.argv) < 2:
+        print("Usage: ros2 run chat_pkg chat_node Invictus/Hawcker")
+        return
+
+    username = sys.argv[1]
+
+    node = ChatNode(username)
+
+    while rclpy.ok():
+        node.send_message()
+	rclpy.spin_once(node)
+
     node.destroy_node()
     rclpy.shutdown()
 
 
 if __name__ == "__main__":
     main()
-
