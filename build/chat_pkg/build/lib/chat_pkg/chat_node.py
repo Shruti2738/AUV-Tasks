@@ -1,17 +1,17 @@
 import rclpy
-from rcply.node import Node
+from rclpy.node import Node
 
-class chatnode(node):
-def _init_(self):
-	super()._init_("chat_node")
-	self.get_logger().info("Node started successfully")
+class chatNode(Node):
+	def __init__(self):
+		super().__init__("chat_node")
+		self.get_logger().info("Node started successfully")
 
 def main():
-	rcply.init()
-	node=chatnode()
-	rcply.spin(node)
+	rclpy.init()
+	node=chatNode()	
+	rclpy.spin(node)
 	node.destroy_node()
-	rcply.shutdown()
+	rclpy.shutdown()
 
-if _nameN=="_main_":
+if __name__=="__main__":
 	main()
