@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000252] (chat_pkg) JobQueued: {'identifier': 'chat_pkg', 'dependencies': OrderedDict()}
+[0.000312] (nav_pkg) JobQueued: {'identifier': 'nav_pkg', 'dependencies': OrderedDict()}
+[0.000558] (chat_pkg) JobStarted: {'identifier': 'chat_pkg'}
+[0.014389] (nav_pkg) JobStarted: {'identifier': 'nav_pkg'}
+[0.097786] (-) TimerEvent: {}
+[0.199867] (-) TimerEvent: {}
+[0.300356] (-) TimerEvent: {}
+[0.400834] (-) TimerEvent: {}
+[0.502964] (-) TimerEvent: {}
+[0.603349] (-) TimerEvent: {}
+[0.704613] (-) TimerEvent: {}
+[0.805806] (-) TimerEvent: {}
+[0.906242] (-) TimerEvent: {}
+[1.006966] (-) TimerEvent: {}
+[1.110376] (-) TimerEvent: {}
+[1.212642] (-) TimerEvent: {}
+[1.313206] (-) TimerEvent: {}
+[1.413840] (-) TimerEvent: {}
+[1.515101] (-) TimerEvent: {}
+[1.617441] (-) TimerEvent: {}
+[1.675393] (nav_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/nav_pkg', 'build', '--build-base', '/home/vboxuser/ros_ws/build/nav_pkg/build', 'install', '--record', '/home/vboxuser/ros_ws/build/nav_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ros_ws/src/nav_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/ros_ws/src/nav_pkg/nav_pkg', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1440', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu1:@/tmp/.ICE-unix/1402,unix/Ubuntu1:/tmp/.ICE-unix/1402', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6f0541c7_3225_4313_9764_5602a1f153ba', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1867N3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.195', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros_ws/build/nav_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros_ws/build/nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.718170] (-) TimerEvent: {}
+[1.775465] (chat_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chat_pkg', 'build', '--build-base', '/home/vboxuser/ros_ws/build/chat_pkg/build', 'install', '--record', '/home/vboxuser/ros_ws/build/chat_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ros_ws/src/chat_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/ros_ws/src/nav_pkg/nav_pkg', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1440', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu1:@/tmp/.ICE-unix/1402,unix/Ubuntu1:/tmp/.ICE-unix/1402', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6f0541c7_3225_4313_9764_5602a1f153ba', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1867N3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.195', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros_ws/build/chat_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros_ws/build/chat_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.819303] (-) TimerEvent: {}
+[1.920486] (-) TimerEvent: {}
+[2.021469] (-) TimerEvent: {}
+[2.124611] (-) TimerEvent: {}
+[2.225140] (-) TimerEvent: {}
+[2.333760] (-) TimerEvent: {}
+[2.403259] (nav_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.403831] (nav_pkg) StdoutLine: {'line': b'creating ../../build/nav_pkg/nav_pkg.egg-info\n'}
+[2.404200] (nav_pkg) StdoutLine: {'line': b'writing ../../build/nav_pkg/nav_pkg.egg-info/PKG-INFO\n'}
+[2.405047] (nav_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/nav_pkg/nav_pkg.egg-info/dependency_links.txt\n'}
+[2.405599] (nav_pkg) StdoutLine: {'line': b'writing entry points to ../../build/nav_pkg/nav_pkg.egg-info/entry_points.txt\n'}
+[2.406438] (nav_pkg) StdoutLine: {'line': b'writing requirements to ../../build/nav_pkg/nav_pkg.egg-info/requires.txt\n'}
+[2.406660] (nav_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/nav_pkg/nav_pkg.egg-info/top_level.txt\n'}
+[2.407108] (nav_pkg) StdoutLine: {'line': b"writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'\n"}
+[2.413443] (nav_pkg) StdoutLine: {'line': b"reading manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'\n"}
+[2.414588] (nav_pkg) StdoutLine: {'line': b"writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'\n"}
+[2.416513] (nav_pkg) StdoutLine: {'line': b'running build\n'}
+[2.416735] (nav_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.416883] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/nav_pkg/build\n'}
+[2.417035] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/nav_pkg/build/lib\n'}
+[2.418392] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg\n'}
+[2.421091] (nav_pkg) StdoutLine: {'line': b'copying nav_pkg/commander.py -> /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg\n'}
+[2.421513] (nav_pkg) StdoutLine: {'line': b'copying nav_pkg/navigator.py -> /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg\n'}
+[2.421732] (nav_pkg) StdoutLine: {'line': b'copying nav_pkg/__init__.py -> /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg\n'}
+[2.421941] (nav_pkg) StdoutLine: {'line': b'running install\n'}
+[2.425978] (nav_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.426353] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg\n'}
+[2.426540] (nav_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg/commander.py -> /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg\n'}
+[2.426704] (nav_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg/navigator.py -> /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg\n'}
+[2.430688] (nav_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg/__init__.py -> /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg\n'}
+[2.432608] (nav_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg/commander.py to commander.cpython-310.pyc\n'}
+[2.432868] (nav_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg/navigator.py to navigator.cpython-310.pyc\n'}
+[2.433037] (nav_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[2.433185] (nav_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.433409] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index\n'}
+[2.433590] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index/resource_index\n'}
+[2.433736] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index/resource_index/packages\n'}
+[2.433876] (-) TimerEvent: {}
+[2.438046] (nav_pkg) StdoutLine: {'line': b'copying resource/nav_pkg -> /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index/resource_index/packages\n'}
+[2.440207] (nav_pkg) StdoutLine: {'line': b'copying package.xml -> /home/vboxuser/ros_ws/install/nav_pkg/share/nav_pkg\n'}
+[2.440767] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/nav_pkg/share/nav_pkg/msg\n'}
+[2.440949] (nav_pkg) StdoutLine: {'line': b'copying msg/BotPose.msg -> /home/vboxuser/ros_ws/install/nav_pkg/share/nav_pkg/msg\n'}
+[2.441105] (nav_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.441249] (nav_pkg) StdoutLine: {'line': b'Copying ../../build/nav_pkg/nav_pkg.egg-info to /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg-0.0.0-py3.10.egg-info\n'}
+[2.441433] (nav_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.524450] (nav_pkg) StdoutLine: {'line': b'Installing commander script to /home/vboxuser/ros_ws/install/nav_pkg/lib/nav_pkg\n'}
+[2.524846] (nav_pkg) StdoutLine: {'line': b'Installing navigator script to /home/vboxuser/ros_ws/install/nav_pkg/lib/nav_pkg\n'}
+[2.525039] (nav_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros_ws/build/nav_pkg/install.log'\n"}
+[2.536021] (-) TimerEvent: {}
+[2.588784] (chat_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.589102] (chat_pkg) StdoutLine: {'line': b'writing ../../build/chat_pkg/chat_pkg.egg-info/PKG-INFO\n'}
+[2.589249] (chat_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/chat_pkg/chat_pkg.egg-info/dependency_links.txt\n'}
+[2.590767] (chat_pkg) StdoutLine: {'line': b'writing entry points to ../../build/chat_pkg/chat_pkg.egg-info/entry_points.txt\n'}
+[2.595195] (chat_pkg) StdoutLine: {'line': b'writing requirements to ../../build/chat_pkg/chat_pkg.egg-info/requires.txt\n'}
+[2.595648] (chat_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/chat_pkg/chat_pkg.egg-info/top_level.txt\n'}
+[2.597357] (chat_pkg) StdoutLine: {'line': b"reading manifest file '../../build/chat_pkg/chat_pkg.egg-info/SOURCES.txt'\n"}
+[2.599587] (chat_pkg) StdoutLine: {'line': b"writing manifest file '../../build/chat_pkg/chat_pkg.egg-info/SOURCES.txt'\n"}
+[2.600435] (chat_pkg) StdoutLine: {'line': b'running build\n'}
+[2.602251] (chat_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.602934] (chat_pkg) StdoutLine: {'line': b'running install\n'}
+[2.605572] (nav_pkg) CommandEnded: {'returncode': 0}
+[2.606934] (chat_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.610437] (chat_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.610696] (chat_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.617979] (chat_pkg) StdoutLine: {'line': b"removing '/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.619522] (chat_pkg) StdoutLine: {'line': b'Copying ../../build/chat_pkg/chat_pkg.egg-info to /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg-0.0.0-py3.10.egg-info\n'}
+[2.620830] (chat_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.637620] (-) TimerEvent: {}
+[2.640930] (nav_pkg) JobEnded: {'identifier': 'nav_pkg', 'rc': 0}
+[2.666608] (chat_pkg) StdoutLine: {'line': b'Installing chat_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg\n'}
+[2.669634] (chat_pkg) StdoutLine: {'line': b'Installing output_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg\n'}
+[2.669969] (chat_pkg) StdoutLine: {'line': b'Installing processor_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg\n'}
+[2.670125] (chat_pkg) StdoutLine: {'line': b'Installing raw_publisher script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg\n'}
+[2.670387] (chat_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros_ws/build/chat_pkg/install.log'\n"}
+[2.735615] (chat_pkg) CommandEnded: {'returncode': 0}
+[2.739319] (-) TimerEvent: {}
+[2.750200] (chat_pkg) JobEnded: {'identifier': 'chat_pkg', 'rc': 0}
+[2.751749] (-) EventReactorShutdown: {}

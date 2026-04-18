@@ -1,0 +1,24 @@
+[1.776s] Invoking command in '/home/vboxuser/ros_ws/src/chat_pkg': PYTHONPATH=/home/vboxuser/ros_ws/build/chat_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_pkg build --build-base /home/vboxuser/ros_ws/build/chat_pkg/build install --record /home/vboxuser/ros_ws/build/chat_pkg/install.log --single-version-externally-managed install_data
+[2.588s] running egg_info
+[2.589s] writing ../../build/chat_pkg/chat_pkg.egg-info/PKG-INFO
+[2.589s] writing dependency_links to ../../build/chat_pkg/chat_pkg.egg-info/dependency_links.txt
+[2.590s] writing entry points to ../../build/chat_pkg/chat_pkg.egg-info/entry_points.txt
+[2.595s] writing requirements to ../../build/chat_pkg/chat_pkg.egg-info/requires.txt
+[2.595s] writing top-level names to ../../build/chat_pkg/chat_pkg.egg-info/top_level.txt
+[2.597s] reading manifest file '../../build/chat_pkg/chat_pkg.egg-info/SOURCES.txt'
+[2.599s] writing manifest file '../../build/chat_pkg/chat_pkg.egg-info/SOURCES.txt'
+[2.600s] running build
+[2.602s] running build_py
+[2.603s] running install
+[2.607s] running install_lib
+[2.610s] running install_data
+[2.610s] running install_egg_info
+[2.619s] removing '/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.619s] Copying ../../build/chat_pkg/chat_pkg.egg-info to /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg-0.0.0-py3.10.egg-info
+[2.620s] running install_scripts
+[2.666s] Installing chat_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg
+[2.669s] Installing output_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg
+[2.669s] Installing processor_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg
+[2.670s] Installing raw_publisher script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg
+[2.670s] writing list of installed files to '/home/vboxuser/ros_ws/build/chat_pkg/install.log'
+[2.735s] Invoked command in '/home/vboxuser/ros_ws/src/chat_pkg' returned '0': PYTHONPATH=/home/vboxuser/ros_ws/build/chat_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_pkg build --build-base /home/vboxuser/ros_ws/build/chat_pkg/build install --record /home/vboxuser/ros_ws/build/chat_pkg/install.log --single-version-externally-managed install_data

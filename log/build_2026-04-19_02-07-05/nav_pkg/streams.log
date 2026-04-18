@@ -1,0 +1,43 @@
+[1.668s] Invoking command in '/home/vboxuser/ros_ws/src/nav_pkg': PYTHONPATH=/home/vboxuser/ros_ws/build/nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_pkg build --build-base /home/vboxuser/ros_ws/build/nav_pkg/build install --record /home/vboxuser/ros_ws/build/nav_pkg/install.log --single-version-externally-managed install_data
+[2.389s] running egg_info
+[2.390s] creating ../../build/nav_pkg/nav_pkg.egg-info
+[2.390s] writing ../../build/nav_pkg/nav_pkg.egg-info/PKG-INFO
+[2.391s] writing dependency_links to ../../build/nav_pkg/nav_pkg.egg-info/dependency_links.txt
+[2.391s] writing entry points to ../../build/nav_pkg/nav_pkg.egg-info/entry_points.txt
+[2.392s] writing requirements to ../../build/nav_pkg/nav_pkg.egg-info/requires.txt
+[2.392s] writing top-level names to ../../build/nav_pkg/nav_pkg.egg-info/top_level.txt
+[2.393s] writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+[2.399s] reading manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+[2.400s] writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+[2.402s] running build
+[2.402s] running build_py
+[2.403s] creating /home/vboxuser/ros_ws/build/nav_pkg/build
+[2.404s] creating /home/vboxuser/ros_ws/build/nav_pkg/build/lib
+[2.407s] creating /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg
+[2.407s] copying nav_pkg/commander.py -> /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg
+[2.407s] copying nav_pkg/navigator.py -> /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg
+[2.407s] copying nav_pkg/__init__.py -> /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg
+[2.408s] running install
+[2.412s] running install_lib
+[2.412s] creating /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg
+[2.412s] copying /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg/commander.py -> /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg
+[2.416s] copying /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg/navigator.py -> /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg
+[2.418s] copying /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg/__init__.py -> /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg
+[2.418s] byte-compiling /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg/commander.py to commander.cpython-310.pyc
+[2.419s] byte-compiling /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg/navigator.py to navigator.cpython-310.pyc
+[2.419s] byte-compiling /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg/__init__.py to __init__.cpython-310.pyc
+[2.419s] running install_data
+[2.419s] creating /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index
+[2.419s] creating /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index/resource_index
+[2.419s] creating /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index/resource_index/packages
+[2.426s] copying resource/nav_pkg -> /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index/resource_index/packages
+[2.426s] copying package.xml -> /home/vboxuser/ros_ws/install/nav_pkg/share/nav_pkg
+[2.426s] creating /home/vboxuser/ros_ws/install/nav_pkg/share/nav_pkg/msg
+[2.427s] copying msg/BotPose.msg -> /home/vboxuser/ros_ws/install/nav_pkg/share/nav_pkg/msg
+[2.427s] running install_egg_info
+[2.427s] Copying ../../build/nav_pkg/nav_pkg.egg-info to /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg-0.0.0-py3.10.egg-info
+[2.427s] running install_scripts
+[2.510s] Installing commander script to /home/vboxuser/ros_ws/install/nav_pkg/lib/nav_pkg
+[2.511s] Installing navigator script to /home/vboxuser/ros_ws/install/nav_pkg/lib/nav_pkg
+[2.511s] writing list of installed files to '/home/vboxuser/ros_ws/build/nav_pkg/install.log'
+[2.592s] Invoked command in '/home/vboxuser/ros_ws/src/nav_pkg' returned '0': PYTHONPATH=/home/vboxuser/ros_ws/build/nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_pkg build --build-base /home/vboxuser/ros_ws/build/nav_pkg/build install --record /home/vboxuser/ros_ws/build/nav_pkg/install.log --single-version-externally-managed install_data

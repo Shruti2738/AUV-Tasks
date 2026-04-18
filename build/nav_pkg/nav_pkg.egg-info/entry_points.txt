@@ -1,0 +1,4 @@
+[console_scripts]
+commander = nav_pkg.commander:main
+navigator = nav_pkg.navigator:main
+
