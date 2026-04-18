@@ -1,4 +1,3 @@
-
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
@@ -12,11 +11,11 @@ class ChatNode(Node):
 
         self.username = username
 
-        self.publisher = self.create_publisher(String, 'chat', 10)
+        self.publisher = self.create_publisher(String, '/chat', 10)
 
         self.subscription = self.create_subscription(
             String,
-            'chat',
+            '/chat',
             self.receive_message,
             10
         )
@@ -32,26 +31,31 @@ class ChatNode(Node):
         self.publisher.publish(msg)
 
     def receive_message(self, msg):
-        sender, message = msg.data.split(":", 1)
 
-        if sender != self.username:
-            print(f"[{sender}]: {message}")
+        if ":" in msg.data:
+            sender, message = msg.data.split(":", 1)
 
+            if sender != self.username:
+                print(f"\n[{sender}]: {message}")
+                print(f"[{self.username}]: ", end="", flush=True)
 
+import threading
 def main():
     rclpy.init()
 
     if len(sys.argv) < 2:
-        print("Usage: ros2 run chat_pkg chat_node Invictus/Hawcker")
+        print("Usage: ros2 run chat_pkg chat_node Invictus")
         return
 
     username = sys.argv[1]
 
     node = ChatNode(username)
 
+    thread=threading.Thread(target=rclpy.spin,args=(node,),daemon=True)
+    thread.start()
+
     while rclpy.ok():
         node.send_message()
-	rclpy.spin_once(node)
 
     node.destroy_node()
     rclpy.shutdown()
