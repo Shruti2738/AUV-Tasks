@@ -1,5 +1,0 @@
-  File "/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/chat_node.py", line 54
-    thread  threading.Thread(target=rclpy.spin,args=(node,),daemon=True)
-            ^^^^^^^^^
-SyntaxError: invalid syntax
-
