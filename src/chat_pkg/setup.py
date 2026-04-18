@@ -25,6 +25,9 @@ setup(
     entry_points={
         'console_scripts': [
 		'chat_node=chat_pkg.chat_node:main'
+		'raw_publisher=chat_pkg.raw_publisher:main',
+		'processor_node=chat_pkg.processor_node:main',
+		'output_node=chat_pkg.output_node:main',
         ],
     },
 )
