@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-	'chat_node=chat_pkg.chat_node:main'
+		'chat_node=chat_pkg.chat_node:main'
         ],
     },
 )
