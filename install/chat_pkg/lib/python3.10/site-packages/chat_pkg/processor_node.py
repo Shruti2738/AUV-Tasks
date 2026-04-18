@@ -11,13 +11,13 @@ class ProcessorNode(Node):
 
         self.subscription__ = self.create_subscription(
             Int32,
-            '/raw_signal',
+            '/raw_signal'
             self.process_number,
             10
         )
 
         self.publisher__ = self.create_publisher(
-            Int32,
+            Int32
             '/processed_signal',
             10
         )

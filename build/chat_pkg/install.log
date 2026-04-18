@@ -1,7 +1,13 @@
+/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/output_node.py
 /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/chat_node.py
 /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/__init__.py
+/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/raw_publisher.py
+/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/processor_node.py
+/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/__pycache__/output_node.cpython-310.pyc
 /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/__pycache__/chat_node.cpython-310.pyc
 /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/__pycache__/__init__.cpython-310.pyc
+/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/__pycache__/raw_publisher.cpython-310.pyc
+/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/__pycache__/processor_node.cpython-310.pyc
 /home/vboxuser/ros_ws/install/chat_pkg/share/ament_index/resource_index/packages/chat_pkg
 /home/vboxuser/ros_ws/install/chat_pkg/share/chat_pkg/package.xml
 /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg-0.0.0-py3.10.egg-info/top_level.txt
@@ -11,4 +17,6 @@
 /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg-0.0.0-py3.10.egg-info/PKG-INFO
 /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
-/home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg/chat_node
+/home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg/chat_node=chat_pkg.chat_node:mainraw_publisher
+/home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg/output_node
+/home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg/processor_node
