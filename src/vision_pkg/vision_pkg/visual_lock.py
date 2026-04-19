@@ -18,7 +18,6 @@ class VisualLock(Node):
     def process_frame(self):
 
         ret, frame = self.cap.read()
-
         if not ret:
             return
 
@@ -26,62 +25,59 @@ class VisualLock(Node):
 
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
-        # Example: detect RED object
-        lower = np.array([0,120,70])
-        upper = np.array([10,255,255])
+        lower = np.array([20, 100, 100])
+        upper = np.array([35, 255, 255])
 
         mask = cv2.inRange(hsv, lower, upper)
 
         contours, _ = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
-        state = "SEARCHING"
         output = frame.copy()
+        new_state = "SEARCHING"
 
-        if len(contours) > 0:
+        if len(contours) == 0:
+
+            new_state = "SEARCHING"
+            output = cv2.bitwise_not(frame)
+
+        else:
 
             largest = max(contours, key=cv2.contourArea)
 
             if cv2.contourArea(largest) > 500:
 
-                x,y,w,h = cv2.boundingRect(largest)
+                x, y, w, h = cv2.boundingRect(largest)
 
-                cx = x + w//2
+                cx = x + w // 2
 
-                cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),2)
-                cv2.circle(frame,(cx,y+h//2),5,(255,0,0),-1)
+                cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+                cv2.circle(frame, (cx, y + h // 2), 5, (255, 0, 0), -1)
 
-                # State Machine
-                if cx < width/3:
+                if cx < width / 3:
 
-                    state = "ALIGNING LEFT"
+                    new_state = "ALIGNING LEFT"
 
                     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
                     output = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)
 
-                elif cx < 2*width/3:
+                elif cx < 2 * width / 3:
 
-                    state = "LOCKED"
+                    new_state = "LOCKED"
 
                     output = frame
 
                 else:
 
-                    state = "ALIGNING RIGHT"
+                    new_state = "ALIGNING RIGHT"
 
-                    edges = cv2.Canny(frame,100,200)
+                    edges = cv2.Canny(frame, 100, 200)
                     output = cv2.cvtColor(edges, cv2.COLOR_GRAY2BGR)
 
-        else:
+        if new_state != self.state:
+            self.get_logger().info(f"STATE: {new_state}")
+            self.state = new_state
 
-            state = "SEARCHING"
-
-            output = cv2.bitwise_not(frame)
-
-        if state != self.state:
-            self.get_logger().info(f"STATE: {state}")
-            self.state = state
-
-        cv2.imshow("Visual Lock", output)
+        cv2.imshow("Visual Lock - Yellow Tracking", output)
         cv2.waitKey(1)
 
 
@@ -95,6 +91,7 @@ def main(args=None):
 
     node.destroy_node()
     rclpy.shutdown()
+
     cv2.destroyAllWindows()
 
 
