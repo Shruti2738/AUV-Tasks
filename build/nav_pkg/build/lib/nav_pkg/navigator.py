@@ -7,103 +7,90 @@ from nav_interfaces.msg import BotPose
 class Navigator(Node):
 
     def __init__(self):
-
         super().__init__('navigator')
 
         self.subscription = self.create_subscription(
             String,
             '/cmd',
-            self.cmd_callback,
-            10
-        )
+            self.command_callback,
+            10)
 
-        self.publisher = self.create_publisher(
-            BotPose,
-            '/bot_pose',
-            10
-        )
+        self.publisher = self.create_publisher(BotPose, '/bot_pose', 10)
 
         self.x = 0.0
         self.y = 0.0
         self.direction = "North"
 
-        self.directions = ["North", "East", "South", "West"]
+        self.get_logger().info("Navigator started at (0,0) facing North")
 
-    def turn_right(self):
+    def command_callback(self, msg):
+        command = msg.data.lower()
 
-        index = self.directions.index(self.direction)
-        self.direction = self.directions[(index + 1) % 4]
-
-    def turn_left(self):
-
-        index = self.directions.index(self.direction)
-        self.direction = self.directions[(index - 1) % 4]
-
-    def move_forward(self):
-
-        if self.direction == "North":
-            self.y += 1
-
-        elif self.direction == "South":
-            self.y -= 1
-
-        elif self.direction == "East":
-            self.x += 1
-
-        elif self.direction == "West":
-            self.x -= 1
-
-    def move_backward(self):
-
-        if self.direction == "North":
-            self.y -= 1
-
-        elif self.direction == "South":
-            self.y += 1
-
-        elif self.direction == "East":
-            self.x -= 1
-
-        elif self.direction == "West":
-            self.x += 1
-
-    def cmd_callback(self, msg):
-
-        command = msg.data
+        # -------- STATE MACHINE --------
 
         if command == "turn right":
-            self.turn_right()
+            if self.direction == "North":
+                self.direction = "East"
+            elif self.direction == "East":
+                self.direction = "South"
+            elif self.direction == "South":
+                self.direction = "West"
+            elif self.direction == "West":
+                self.direction = "North"
 
         elif command == "turn left":
-            self.turn_left()
+            if self.direction == "North":
+                self.direction = "West"
+            elif self.direction == "West":
+                self.direction = "South"
+            elif self.direction == "South":
+                self.direction = "East"
+            elif self.direction == "East":
+                self.direction = "North"
 
         elif command == "forward":
-            self.move_forward()
+            if self.direction == "North":
+                self.y += 1
+            elif self.direction == "South":
+                self.y -= 1
+            elif self.direction == "East":
+                self.x += 1
+            elif self.direction == "West":
+                self.x -= 1
 
         elif command == "backward":
-            self.move_backward()
+            if self.direction == "North":
+                self.y -= 1
+            elif self.direction == "South":
+                self.y += 1
+            elif self.direction == "East":
+                self.x -= 1
+            elif self.direction == "West":
+                self.x += 1
+
+        # -------- Publish BotPose --------
 
         pose = BotPose()
-
-        pose.x = float(self.x)
-        pose.y = float(self.y)
+        pose.x = self.x
+        pose.y = self.y
         pose.facing_direction = self.direction
 
         self.publisher.publish(pose)
 
         self.get_logger().info(
-            f"Bot Position: ({self.x}, {self.y}) Facing: {self.direction}"
+            f"Position: ({self.x}, {self.y}) Facing: {self.direction}"
         )
 
 
 def main(args=None):
-
     rclpy.init(args=args)
 
     node = Navigator()
-
     rclpy.spin(node)
 
     node.destroy_node()
-
     rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

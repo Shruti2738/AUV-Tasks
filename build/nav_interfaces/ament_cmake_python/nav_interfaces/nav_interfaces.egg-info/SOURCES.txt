@@ -4,3 +4,5 @@ nav_interfaces.egg-info/PKG-INFO
 nav_interfaces.egg-info/SOURCES.txt
 nav_interfaces.egg-info/dependency_links.txt
 nav_interfaces.egg-info/top_level.txt
+nav_interfaces/msg/__init__.py
+nav_interfaces/msg/_bot_pose.py
