@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
 Name: nav-pkg
 Version: 0.0.0
-Summary: Dead Reckoning System
+Summary: Dead Reckoning Navigation Package
 Home-page: UNKNOWN
-Maintainer: user
-Maintainer-email: user@todo.todo
+Maintainer: vboxuser
+Maintainer-email: vboxuser@todo.todo
 License: Apache License 2.0
 Platform: UNKNOWN
 

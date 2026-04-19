@@ -1,0 +1,49 @@
+[1.603s] Invoking command in '/home/vboxuser/ros_ws/src/chat_pkg': PYTHONPATH=/home/vboxuser/ros_ws/build/chat_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_pkg build --build-base /home/vboxuser/ros_ws/build/chat_pkg/build install --record /home/vboxuser/ros_ws/build/chat_pkg/install.log --single-version-externally-managed install_data
+[2.382s] running egg_info
+[2.382s] creating ../../build/chat_pkg/chat_pkg.egg-info
+[2.382s] writing ../../build/chat_pkg/chat_pkg.egg-info/PKG-INFO
+[2.383s] writing dependency_links to ../../build/chat_pkg/chat_pkg.egg-info/dependency_links.txt
+[2.385s] writing entry points to ../../build/chat_pkg/chat_pkg.egg-info/entry_points.txt
+[2.385s] writing requirements to ../../build/chat_pkg/chat_pkg.egg-info/requires.txt
+[2.385s] writing top-level names to ../../build/chat_pkg/chat_pkg.egg-info/top_level.txt
+[2.385s] writing manifest file '../../build/chat_pkg/chat_pkg.egg-info/SOURCES.txt'
+[2.389s] reading manifest file '../../build/chat_pkg/chat_pkg.egg-info/SOURCES.txt'
+[2.389s] writing manifest file '../../build/chat_pkg/chat_pkg.egg-info/SOURCES.txt'
+[2.390s] running build
+[2.393s] running build_py
+[2.393s] creating /home/vboxuser/ros_ws/build/chat_pkg/build
+[2.393s] creating /home/vboxuser/ros_ws/build/chat_pkg/build/lib
+[2.394s] creating /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg
+[2.394s] copying chat_pkg/output_node.py -> /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg
+[2.394s] copying chat_pkg/chat_node.py -> /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg
+[2.398s] copying chat_pkg/__init__.py -> /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg
+[2.398s] copying chat_pkg/raw_publisher.py -> /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg
+[2.398s] copying chat_pkg/processor_node.py -> /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg
+[2.398s] running install
+[2.401s] running install_lib
+[2.401s] creating /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg
+[2.401s] copying /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg/output_node.py -> /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg
+[2.401s] copying /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg/chat_node.py -> /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg
+[2.402s] copying /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg/__init__.py -> /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg
+[2.402s] copying /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg/raw_publisher.py -> /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg
+[2.402s] copying /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg/processor_node.py -> /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg
+[2.402s] byte-compiling /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/output_node.py to output_node.cpython-310.pyc
+[2.404s] byte-compiling /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/chat_node.py to chat_node.cpython-310.pyc
+[2.406s] byte-compiling /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/__init__.py to __init__.cpython-310.pyc
+[2.407s] byte-compiling /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/raw_publisher.py to raw_publisher.cpython-310.pyc
+[2.407s] byte-compiling /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/processor_node.py to processor_node.cpython-310.pyc
+[2.409s] running install_data
+[2.409s] creating /home/vboxuser/ros_ws/install/chat_pkg/share/ament_index
+[2.409s] creating /home/vboxuser/ros_ws/install/chat_pkg/share/ament_index/resource_index
+[2.409s] creating /home/vboxuser/ros_ws/install/chat_pkg/share/ament_index/resource_index/packages
+[2.413s] copying resource/chat_pkg -> /home/vboxuser/ros_ws/install/chat_pkg/share/ament_index/resource_index/packages
+[2.413s] copying package.xml -> /home/vboxuser/ros_ws/install/chat_pkg/share/chat_pkg
+[2.413s] running install_egg_info
+[2.416s] Copying ../../build/chat_pkg/chat_pkg.egg-info to /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg-0.0.0-py3.10.egg-info
+[2.418s] running install_scripts
+[2.468s] Installing chat_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg
+[2.468s] Installing output_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg
+[2.468s] Installing processor_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg
+[2.469s] Installing raw_publisher script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg
+[2.469s] writing list of installed files to '/home/vboxuser/ros_ws/build/chat_pkg/install.log'
+[2.531s] Invoked command in '/home/vboxuser/ros_ws/src/chat_pkg' returned '0': PYTHONPATH=/home/vboxuser/ros_ws/build/chat_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chat_pkg build --build-base /home/vboxuser/ros_ws/build/chat_pkg/build install --record /home/vboxuser/ros_ws/build/chat_pkg/install.log --single-version-externally-managed install_data

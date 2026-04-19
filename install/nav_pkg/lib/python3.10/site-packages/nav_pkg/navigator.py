@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-from nav_pkg.msg import BotPose
+from nav_interfaces.msg import BotPose
 
 
 class Navigator(Node):

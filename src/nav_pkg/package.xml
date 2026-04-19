@@ -15,6 +15,7 @@
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
 
   <!-- Dependencies -->
+  <depend>nav_interfaces</depend>
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
 

@@ -1,0 +1,6 @@
+{
+  "package_name": "nav_interfaces",
+  "non_idl_tuples": [
+    "/home/vboxuser/ros_ws/src/nav_interfaces:msg/BotPose.msg"
+  ]
+}

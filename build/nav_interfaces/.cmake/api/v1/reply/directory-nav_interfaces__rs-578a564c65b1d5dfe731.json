@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "nav_interfaces__rs",
+		"source" : "/home/vboxuser/ros_ws/build/nav_interfaces/nav_interfaces__rs"
+	}
+}
