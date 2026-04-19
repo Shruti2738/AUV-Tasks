@@ -1,0 +1,503 @@
+[0.000000] (-) TimerEvent: {}
+[0.002620] (chat_pkg) JobQueued: {'identifier': 'chat_pkg', 'dependencies': OrderedDict()}
+[0.002806] (nav_interfaces) JobQueued: {'identifier': 'nav_interfaces', 'dependencies': OrderedDict()}
+[0.002870] (vision_pkg) JobQueued: {'identifier': 'vision_pkg', 'dependencies': OrderedDict()}
+[0.002917] (nav_pkg) JobQueued: {'identifier': 'nav_pkg', 'dependencies': OrderedDict([('nav_interfaces', '/home/vboxuser/ros_ws/install/nav_interfaces')])}
+[0.002969] (nav_interfaces) JobStarted: {'identifier': 'nav_interfaces'}
+[0.019212] (chat_pkg) JobStarted: {'identifier': 'chat_pkg'}
+[0.039480] (vision_pkg) JobStarted: {'identifier': 'vision_pkg'}
+[0.067707] (nav_interfaces) JobProgress: {'identifier': 'nav_interfaces', 'progress': 'cmake'}
+[0.067919] (nav_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/ros_ws/src/nav_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/install/nav_interfaces'], 'cwd': '/home/vboxuser/ros_ws/build/nav_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/ros_ws/install/nav_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1480'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu1:@/tmp/.ICE-unix/1453,unix/Ubuntu1:/tmp/.ICE-unix/1453'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ffbd5d1_2921_4283_9cf7_9a4b581f0236'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1SP8N3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/nav_interfaces:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros_ws/build/nav_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/ros_ws/install/nav_interfaces:/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099893] (-) TimerEvent: {}
+[0.202019] (-) TimerEvent: {}
+[0.303069] (-) TimerEvent: {}
+[0.404475] (-) TimerEvent: {}
+[0.505456] (-) TimerEvent: {}
+[0.607560] (-) TimerEvent: {}
+[0.708563] (-) TimerEvent: {}
+[0.811548] (-) TimerEvent: {}
+[0.862833] (nav_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.863180] (nav_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.866169] (nav_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.866487] (nav_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.866679] (nav_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.866837] (nav_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.866996] (nav_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.867272] (nav_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.872721] (nav_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.872950] (nav_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.873098] (nav_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.873207] (nav_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.873287] (nav_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.911729] (-) TimerEvent: {}
+[1.012264] (-) TimerEvent: {}
+[1.112876] (-) TimerEvent: {}
+[1.215465] (-) TimerEvent: {}
+[1.226229] (nav_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.316544] (-) TimerEvent: {}
+[1.410618] (nav_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.413671] (nav_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.416748] (-) TimerEvent: {}
+[1.424551] (nav_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.518473] (-) TimerEvent: {}
+[1.543660] (nav_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.618994] (-) TimerEvent: {}
+[1.719971] (-) TimerEvent: {}
+[1.822102] (-) TimerEvent: {}
+[1.924443] (-) TimerEvent: {}
+[2.026440] (-) TimerEvent: {}
+[2.128925] (-) TimerEvent: {}
+[2.230139] (-) TimerEvent: {}
+[2.335455] (-) TimerEvent: {}
+[2.437526] (-) TimerEvent: {}
+[2.517522] (nav_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.538864] (-) TimerEvent: {}
+[2.641465] (-) TimerEvent: {}
+[2.743654] (-) TimerEvent: {}
+[2.844325] (-) TimerEvent: {}
+[2.862945] (vision_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vision_pkg', 'build', '--build-base', '/home/vboxuser/ros_ws/build/vision_pkg/build', 'install', '--record', '/home/vboxuser/ros_ws/build/vision_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ros_ws/src/vision_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/ros_ws/install/nav_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/ros_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1480', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu1:@/tmp/.ICE-unix/1453,unix/Ubuntu1:/tmp/.ICE-unix/1453', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5ffbd5d1_2921_4283_9cf7_9a4b581f0236', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1SP8N3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/nav_interfaces:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros_ws/build/vision_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros_ws/build/vision_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/ros_ws/install/nav_interfaces'}, 'shell': False}
+[2.944561] (-) TimerEvent: {}
+[3.025812] (chat_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chat_pkg', 'build', '--build-base', '/home/vboxuser/ros_ws/build/chat_pkg/build', 'install', '--record', '/home/vboxuser/ros_ws/build/chat_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ros_ws/src/chat_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/ros_ws/install/nav_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/ros_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1480', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu1:@/tmp/.ICE-unix/1453,unix/Ubuntu1:/tmp/.ICE-unix/1453', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5ffbd5d1_2921_4283_9cf7_9a4b581f0236', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1SP8N3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/nav_interfaces:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros_ws/build/chat_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros_ws/build/chat_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/ros_ws/install/nav_interfaces'}, 'shell': False}
+[3.047449] (-) TimerEvent: {}
+[3.120154] (nav_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.147861] (-) TimerEvent: {}
+[3.248441] (-) TimerEvent: {}
+[3.349211] (-) TimerEvent: {}
+[3.452090] (-) TimerEvent: {}
+[3.552664] (-) TimerEvent: {}
+[3.613595] (vision_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.613951] (vision_pkg) StdoutLine: {'line': b'creating ../../build/vision_pkg/vision_pkg.egg-info\n'}
+[3.614291] (vision_pkg) StdoutLine: {'line': b'writing ../../build/vision_pkg/vision_pkg.egg-info/PKG-INFO\n'}
+[3.614744] (vision_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/vision_pkg/vision_pkg.egg-info/dependency_links.txt\n'}
+[3.614989] (vision_pkg) StdoutLine: {'line': b'writing entry points to ../../build/vision_pkg/vision_pkg.egg-info/entry_points.txt\n'}
+[3.617661] (vision_pkg) StdoutLine: {'line': b'writing requirements to ../../build/vision_pkg/vision_pkg.egg-info/requires.txt\n'}
+[3.617849] (vision_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/vision_pkg/vision_pkg.egg-info/top_level.txt\n'}
+[3.618174] (vision_pkg) StdoutLine: {'line': b"writing manifest file '../../build/vision_pkg/vision_pkg.egg-info/SOURCES.txt'\n"}
+[3.618413] (vision_pkg) StdoutLine: {'line': b"reading manifest file '../../build/vision_pkg/vision_pkg.egg-info/SOURCES.txt'\n"}
+[3.619242] (vision_pkg) StdoutLine: {'line': b"writing manifest file '../../build/vision_pkg/vision_pkg.egg-info/SOURCES.txt'\n"}
+[3.619680] (vision_pkg) StdoutLine: {'line': b'running build\n'}
+[3.619884] (vision_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.620253] (vision_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/vision_pkg/build\n'}
+[3.620609] (vision_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/vision_pkg/build/lib\n'}
+[3.620864] (vision_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/vision_pkg/build/lib/vision_pkg\n'}
+[3.621102] (vision_pkg) StdoutLine: {'line': b'copying vision_pkg/visual_lock.py -> /home/vboxuser/ros_ws/build/vision_pkg/build/lib/vision_pkg\n'}
+[3.621482] (vision_pkg) StdoutLine: {'line': b'copying vision_pkg/__init__.py -> /home/vboxuser/ros_ws/build/vision_pkg/build/lib/vision_pkg\n'}
+[3.621677] (vision_pkg) StdoutLine: {'line': b'running install\n'}
+[3.622065] (vision_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.623301] (vision_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg\n'}
+[3.623735] (vision_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/vision_pkg/build/lib/vision_pkg/visual_lock.py -> /home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg\n'}
+[3.623927] (vision_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/vision_pkg/build/lib/vision_pkg/__init__.py -> /home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg\n'}
+[3.624510] (vision_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg/visual_lock.py to visual_lock.cpython-310.pyc\n'}
+[3.625879] (vision_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[3.626498] (vision_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.627451] (vision_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/vision_pkg/share/ament_index\n'}
+[3.627688] (vision_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/vision_pkg/share/ament_index/resource_index\n'}
+[3.627862] (vision_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/vision_pkg/share/ament_index/resource_index/packages\n'}
+[3.628032] (vision_pkg) StdoutLine: {'line': b'copying resource/vision_pkg -> /home/vboxuser/ros_ws/install/vision_pkg/share/ament_index/resource_index/packages\n'}
+[3.630481] (vision_pkg) StdoutLine: {'line': b'copying package.xml -> /home/vboxuser/ros_ws/install/vision_pkg/share/vision_pkg\n'}
+[3.630742] (vision_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.631211] (vision_pkg) StdoutLine: {'line': b'Copying ../../build/vision_pkg/vision_pkg.egg-info to /home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg-0.0.0-py3.10.egg-info\n'}
+[3.632731] (vision_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.652838] (-) TimerEvent: {}
+[3.671573] (vision_pkg) StdoutLine: {'line': b'Installing visual_lock script to /home/vboxuser/ros_ws/install/vision_pkg/lib/vision_pkg\n'}
+[3.672573] (vision_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros_ws/build/vision_pkg/install.log'\n"}
+[3.727464] (nav_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.738508] (vision_pkg) CommandEnded: {'returncode': 0}
+[3.748537] (chat_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.750235] (chat_pkg) StdoutLine: {'line': b'creating ../../build/chat_pkg/chat_pkg.egg-info\n'}
+[3.750836] (chat_pkg) StdoutLine: {'line': b'writing ../../build/chat_pkg/chat_pkg.egg-info/PKG-INFO\n'}
+[3.751933] (chat_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/chat_pkg/chat_pkg.egg-info/dependency_links.txt\n'}
+[3.754709] (chat_pkg) StdoutLine: {'line': b'writing entry points to ../../build/chat_pkg/chat_pkg.egg-info/entry_points.txt\n'}
+[3.754931] (-) TimerEvent: {}
+[3.755293] (chat_pkg) StdoutLine: {'line': b'writing requirements to ../../build/chat_pkg/chat_pkg.egg-info/requires.txt\n'}
+[3.755551] (chat_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/chat_pkg/chat_pkg.egg-info/top_level.txt\n'}
+[3.755726] (chat_pkg) StdoutLine: {'line': b"writing manifest file '../../build/chat_pkg/chat_pkg.egg-info/SOURCES.txt'\n"}
+[3.758927] (chat_pkg) StdoutLine: {'line': b"reading manifest file '../../build/chat_pkg/chat_pkg.egg-info/SOURCES.txt'\n"}
+[3.759609] (chat_pkg) StdoutLine: {'line': b"writing manifest file '../../build/chat_pkg/chat_pkg.egg-info/SOURCES.txt'\n"}
+[3.759829] (chat_pkg) StdoutLine: {'line': b'running build\n'}
+[3.760005] (chat_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.762530] (chat_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/chat_pkg/build\n'}
+[3.762715] (chat_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/chat_pkg/build/lib\n'}
+[3.762987] (chat_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg\n'}
+[3.763235] (chat_pkg) StdoutLine: {'line': b'copying chat_pkg/output_node.py -> /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg\n'}
+[3.763464] (chat_pkg) StdoutLine: {'line': b'copying chat_pkg/chat_node.py -> /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg\n'}
+[3.763646] (chat_pkg) StdoutLine: {'line': b'copying chat_pkg/__init__.py -> /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg\n'}
+[3.763893] (chat_pkg) StdoutLine: {'line': b'copying chat_pkg/raw_publisher.py -> /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg\n'}
+[3.764048] (chat_pkg) StdoutLine: {'line': b'copying chat_pkg/processor_node.py -> /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg\n'}
+[3.764266] (chat_pkg) StdoutLine: {'line': b'running install\n'}
+[3.764499] (chat_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.766692] (chat_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg\n'}
+[3.766920] (chat_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg/output_node.py -> /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg\n'}
+[3.767019] (chat_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg/chat_node.py -> /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg\n'}
+[3.767102] (chat_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg/__init__.py -> /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg\n'}
+[3.767418] (chat_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg/raw_publisher.py -> /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg\n'}
+[3.767610] (chat_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/chat_pkg/build/lib/chat_pkg/processor_node.py -> /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg\n'}
+[3.768321] (chat_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/output_node.py to output_node.cpython-310.pyc\n'}
+[3.773401] (vision_pkg) JobEnded: {'identifier': 'vision_pkg', 'rc': 0}
+[3.776499] (chat_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/chat_node.py to chat_node.cpython-310.pyc\n'}
+[3.776851] (chat_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[3.777156] (chat_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/raw_publisher.py to raw_publisher.cpython-310.pyc\n'}
+[3.778762] (chat_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg/processor_node.py to processor_node.cpython-310.pyc\n'}
+[3.781038] (chat_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.781255] (chat_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/chat_pkg/share/ament_index\n'}
+[3.785637] (chat_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/chat_pkg/share/ament_index/resource_index\n'}
+[3.786745] (chat_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/chat_pkg/share/ament_index/resource_index/packages\n'}
+[3.787140] (chat_pkg) StdoutLine: {'line': b'copying resource/chat_pkg -> /home/vboxuser/ros_ws/install/chat_pkg/share/ament_index/resource_index/packages\n'}
+[3.787321] (chat_pkg) StdoutLine: {'line': b'copying package.xml -> /home/vboxuser/ros_ws/install/chat_pkg/share/chat_pkg\n'}
+[3.790674] (chat_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.791160] (chat_pkg) StdoutLine: {'line': b'Copying ../../build/chat_pkg/chat_pkg.egg-info to /home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages/chat_pkg-0.0.0-py3.10.egg-info\n'}
+[3.791386] (chat_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.791589] (nav_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.793810] (nav_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.856976] (-) TimerEvent: {}
+[3.862403] (chat_pkg) StdoutLine: {'line': b'Installing chat_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg\n'}
+[3.863048] (chat_pkg) StdoutLine: {'line': b'Installing output_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg\n'}
+[3.863239] (chat_pkg) StdoutLine: {'line': b'Installing processor_node script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg\n'}
+[3.863504] (chat_pkg) StdoutLine: {'line': b'Installing raw_publisher script to /home/vboxuser/ros_ws/install/chat_pkg/lib/chat_pkg\n'}
+[3.863764] (chat_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros_ws/build/chat_pkg/install.log'\n"}
+[3.885489] (nav_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.885917] (nav_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.886208] (nav_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.886411] (nav_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.957248] (-) TimerEvent: {}
+[3.961515] (chat_pkg) CommandEnded: {'returncode': 0}
+[3.970463] (nav_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.989410] (chat_pkg) JobEnded: {'identifier': 'chat_pkg', 'rc': 0}
+[4.058428] (-) TimerEvent: {}
+[4.159144] (-) TimerEvent: {}
+[4.194602] (nav_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.253184] (nav_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.263119] (-) TimerEvent: {}
+[4.277995] (nav_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/ros_ws/build/nav_interfaces\n'}
+[4.297295] (nav_interfaces) CommandEnded: {'returncode': 0}
+[4.302911] (nav_interfaces) JobProgress: {'identifier': 'nav_interfaces', 'progress': 'build'}
+[4.303189] (nav_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/ros_ws/build/nav_interfaces', '--', '-j3', '-l3'], 'cwd': '/home/vboxuser/ros_ws/build/nav_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/ros_ws/install/nav_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1480'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu1:@/tmp/.ICE-unix/1453,unix/Ubuntu1:/tmp/.ICE-unix/1453'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ffbd5d1_2921_4283_9cf7_9a4b581f0236'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1SP8N3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/nav_interfaces:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros_ws/build/nav_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/ros_ws/install/nav_interfaces:/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble')]), 'shell': False}
+[4.365238] (-) TimerEvent: {}
+[4.398745] (nav_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.420006] (nav_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.429513] (nav_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[4.465437] (-) TimerEvent: {}
+[4.567721] (-) TimerEvent: {}
+[4.668169] (-) TimerEvent: {}
+[4.768773] (-) TimerEvent: {}
+[4.869681] (-) TimerEvent: {}
+[4.970832] (-) TimerEvent: {}
+[5.071360] (-) TimerEvent: {}
+[5.173910] (-) TimerEvent: {}
+[5.231300] (nav_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/nav_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nav_interfaces/msg/detail/bot_pose__functions.c.o\x1b[0m\n'}
+[5.272016] (nav_interfaces) StdoutLine: {'line': b'[ 12%] Built target nav_interfaces__cpp\n'}
+[5.274065] (-) TimerEvent: {}
+[5.294069] (nav_interfaces) StdoutLine: {'line': b'[ 12%] Built target nav_interfaces__rs\n'}
+[5.324764] (nav_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.346217] (nav_interfaces) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_nav_interfaces\n'}
+[5.353124] (nav_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libnav_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.371103] (nav_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.375586] (-) TimerEvent: {}
+[5.437555] (nav_interfaces) StdoutLine: {'line': b'[ 21%] Built target nav_interfaces__rosidl_generator_c\n'}
+[5.459308] (nav_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.476027] (-) TimerEvent: {}
+[5.578750] (-) TimerEvent: {}
+[5.679670] (-) TimerEvent: {}
+[5.780401] (-) TimerEvent: {}
+[5.881075] (-) TimerEvent: {}
+[5.983616] (-) TimerEvent: {}
+[5.998942] (nav_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_interfaces/msg/detail/bot_pose__type_support.cpp.o\x1b[0m\n'}
+[6.088516] (nav_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_interfaces/msg/bot_pose__type_support.cpp.o\x1b[0m\n'}
+[6.088838] (-) TimerEvent: {}
+[6.190077] (-) TimerEvent: {}
+[6.287611] (nav_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_interfaces/msg/detail/dds_fastrtps/bot_pose__type_support.cpp.o\x1b[0m\n'}
+[6.292481] (-) TimerEvent: {}
+[6.392938] (-) TimerEvent: {}
+[6.494499] (-) TimerEvent: {}
+[6.595057] (-) TimerEvent: {}
+[6.695672] (-) TimerEvent: {}
+[6.796687] (-) TimerEvent: {}
+[6.898250] (-) TimerEvent: {}
+[6.999163] (-) TimerEvent: {}
+[7.012707] (nav_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.099482] (-) TimerEvent: {}
+[7.115553] (nav_interfaces) StdoutLine: {'line': b'[ 37%] Built target nav_interfaces__rosidl_typesupport_cpp\n'}
+[7.140613] (nav_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.145502] (nav_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.203502] (-) TimerEvent: {}
+[7.304036] (-) TimerEvent: {}
+[7.325652] (nav_interfaces) StdoutLine: {'line': b'[ 43%] Built target nav_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.375626] (nav_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.404219] (-) TimerEvent: {}
+[7.505714] (-) TimerEvent: {}
+[7.606177] (-) TimerEvent: {}
+[7.608155] (nav_interfaces) StdoutLine: {'line': b'[ 46%] Built target nav_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.628507] (nav_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.706354] (-) TimerEvent: {}
+[7.807056] (-) TimerEvent: {}
+[7.904488] (nav_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_interfaces/msg/bot_pose__type_support.cpp.o\x1b[0m\n'}
+[7.907186] (-) TimerEvent: {}
+[7.964168] (nav_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.008453] (-) TimerEvent: {}
+[8.043703] (nav_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[8.050998] (nav_interfaces) StdoutLine: {'line': b'creating nav_interfaces.egg-info\n'}
+[8.051286] (nav_interfaces) StdoutLine: {'line': b'writing nav_interfaces.egg-info/PKG-INFO\n'}
+[8.051588] (nav_interfaces) StdoutLine: {'line': b'writing dependency_links to nav_interfaces.egg-info/dependency_links.txt\n'}
+[8.051758] (nav_interfaces) StdoutLine: {'line': b'writing top-level names to nav_interfaces.egg-info/top_level.txt\n'}
+[8.051895] (nav_interfaces) StdoutLine: {'line': b"writing manifest file 'nav_interfaces.egg-info/SOURCES.txt'\n"}
+[8.052055] (nav_interfaces) StdoutLine: {'line': b"reading manifest file 'nav_interfaces.egg-info/SOURCES.txt'\n"}
+[8.054335] (nav_interfaces) StdoutLine: {'line': b"writing manifest file 'nav_interfaces.egg-info/SOURCES.txt'\n"}
+[8.072788] (nav_interfaces) StdoutLine: {'line': b'[ 56%] Built target nav_interfaces__rosidl_typesupport_c\n'}
+[8.090118] (nav_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.108638] (-) TimerEvent: {}
+[8.123173] (nav_interfaces) StdoutLine: {'line': b'[ 59%] Built target ament_cmake_python_build_nav_interfaces_egg\n'}
+[8.209528] (-) TimerEvent: {}
+[8.279612] (nav_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_interfaces/msg/detail/bot_pose__type_support.c.o\x1b[0m\n'}
+[8.312718] (-) TimerEvent: {}
+[8.359695] (nav_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libnav_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.413000] (-) TimerEvent: {}
+[8.416443] (nav_interfaces) StdoutLine: {'line': b'[ 65%] Built target nav_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.515572] (-) TimerEvent: {}
+[8.602657] (nav_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_interfaces/msg/detail/bot_pose__type_support_c.cpp.o\x1b[0m\n'}
+[8.658861] (-) TimerEvent: {}
+[8.767203] (-) TimerEvent: {}
+[8.885404] (-) TimerEvent: {}
+[9.162554] (-) TimerEvent: {}
+[9.247987] (nav_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.262992] (-) TimerEvent: {}
+[9.365556] (-) TimerEvent: {}
+[9.459273] (nav_interfaces) StdoutLine: {'line': b'[ 71%] Built target nav_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.466240] (-) TimerEvent: {}
+[9.498637] (nav_interfaces) StdoutLine: {'line': b'[ 71%] Built target nav_interfaces\n'}
+[9.536764] (nav_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.570460] (-) TimerEvent: {}
+[9.676583] (-) TimerEvent: {}
+[9.791794] (-) TimerEvent: {}
+[9.893732] (-) TimerEvent: {}
+[9.998434] (-) TimerEvent: {}
+[10.098982] (-) TimerEvent: {}
+[10.175148] (nav_interfaces) StdoutLine: {'line': b'[ 75%] Built target nav_interfaces__py\n'}
+[10.199286] (-) TimerEvent: {}
+[10.212090] (nav_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/nav_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nav_interfaces/msg/_bot_pose_s.c.o\x1b[0m\n'}
+[10.301423] (-) TimerEvent: {}
+[10.402042] (-) TimerEvent: {}
+[10.405856] (nav_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav_interfaces/libnav_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[10.475449] (nav_interfaces) StdoutLine: {'line': b'[ 81%] Built target nav_interfaces__rosidl_generator_py\n'}
+[10.503467] (-) TimerEvent: {}
+[10.516927] (nav_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.522549] (nav_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.522847] (nav_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.603719] (-) TimerEvent: {}
+[10.704514] (-) TimerEvent: {}
+[10.727974] (nav_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav_interfaces/nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.736445] (nav_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav_interfaces/nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.771548] (nav_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav_interfaces/nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.801058] (nav_interfaces) StdoutLine: {'line': b'[100%] Built target nav_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[10.805221] (-) TimerEvent: {}
+[10.817780] (nav_interfaces) StdoutLine: {'line': b'[100%] Built target nav_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.834756] (nav_interfaces) StdoutLine: {'line': b'[100%] Built target nav_interfaces__rosidl_typesupport_c__pyext\n'}
+[10.860670] (nav_interfaces) CommandEnded: {'returncode': 0}
+[10.861435] (nav_interfaces) JobProgress: {'identifier': 'nav_interfaces', 'progress': 'install'}
+[10.876464] (nav_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/ros_ws/build/nav_interfaces'], 'cwd': '/home/vboxuser/ros_ws/build/nav_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/ros_ws/install/nav_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1480'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu1:@/tmp/.ICE-unix/1453,unix/Ubuntu1:/tmp/.ICE-unix/1453'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ffbd5d1_2921_4283_9cf7_9a4b581f0236'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1SP8N3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/nav_interfaces:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros_ws/build/nav_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/ros_ws/install/nav_interfaces:/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble')]), 'shell': False}
+[10.891637] (nav_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.892049] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/ament_index/resource_index/rosidl_interfaces/nav_interfaces\n'}
+[10.892200] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces\n'}
+[10.892511] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg\n'}
+[10.892966] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.893590] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail\n'}
+[10.893758] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__functions.c\n'}
+[10.893853] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__functions.h\n'}
+[10.893936] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__struct.h\n'}
+[10.894839] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__type_support.h\n'}
+[10.895125] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/bot_pose.h\n'}
+[10.895462] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/library_path.sh\n'}
+[10.895897] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/library_path.dsv\n'}
+[10.896021] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_c.so\n'}
+[10.896108] (nav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_c.so" to ""\n'}
+[10.896190] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces\n'}
+[10.896326] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg\n'}
+[10.896494] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.896579] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail\n'}
+[10.896660] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[10.896749] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.897135] (nav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.897279] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces\n'}
+[10.897450] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg\n'}
+[10.897547] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.897631] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail\n'}
+[10.897711] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__type_support.c\n'}
+[10.897790] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__rosidl_typesupport_introspection_c.h\n'}
+[10.898632] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.898844] (nav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.899001] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_c.so\n'}
+[10.899137] (nav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[10.899261] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces\n'}
+[10.899403] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg\n'}
+[10.899513] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.899609] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail\n'}
+[10.899847] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__traits.hpp\n'}
+[10.899977] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__builder.hpp\n'}
+[10.900104] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__type_support.hpp\n'}
+[10.900206] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__struct.hpp\n'}
+[10.900386] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/bot_pose.hpp\n'}
+[10.900561] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces\n'}
+[10.900899] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg\n'}
+[10.901026] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.901175] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail\n'}
+[10.901267] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/dds_fastrtps\n'}
+[10.901542] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.901680] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.901966] (nav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.902082] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces\n'}
+[10.902288] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg\n'}
+[10.902469] (nav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail\n'}
+[10.902630] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.902720] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__type_support.cpp\n'}
+[10.902831] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.903118] (nav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.903261] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.903540] (nav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[10.904003] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/pythonpath.sh\n'}
+[10.904195] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/pythonpath.dsv\n'}
+[10.904523] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info\n'}
+[10.904906] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.905232] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.905518] (-) TimerEvent: {}
+[10.905977] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.906212] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.906624] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces\n'}
+[10.906986] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/libnav_interfaces__rosidl_generator_py.so\n'}
+[10.907190] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[10.907571] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.907864] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.908226] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.908599] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg\n'}
+[10.908879] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg/_bot_pose_s.c\n'}
+[10.909056] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg/__init__.py\n'}
+[10.909171] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg/_bot_pose.py\n'}
+[10.909562] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/__init__.py\n'}
+[10.909798] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.909963] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.979708] (nav_interfaces) StdoutLine: {'line': b"Listing '/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces'...\n"}
+[10.980038] (nav_interfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/__init__.py'...\n"}
+[10.980195] (nav_interfaces) StdoutLine: {'line': b"Listing '/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg'...\n"}
+[10.980333] (nav_interfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg/__init__.py'...\n"}
+[10.980670] (nav_interfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg/_bot_pose.py'...\n"}
+[10.988715] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.988925] (nav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.989053] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.989190] (nav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.989466] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.989935] (nav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.990415] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_py.so\n'}
+[10.990987] (nav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_py.so" to ""\n'}
+[10.991316] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/ament_index/resource_index/rust_packages/nav_interfaces\n'}
+[10.991635] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust\n'}
+[10.991826] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/build.rs\n'}
+[10.991982] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/Cargo.toml\n'}
+[10.992078] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/src\n'}
+[10.992222] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/src/lib.rs\n'}
+[10.992500] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/src/msg.rs\n'}
+[10.992642] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/src/msg\n'}
+[10.992820] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/src/msg/rmw.rs\n'}
+[10.992918] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/msg/BotPose.idl\n'}
+[10.993056] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/msg/BotPose.msg\n'}
+[10.993403] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/ament_index/resource_index/package_run_dependencies/nav_interfaces\n'}
+[10.993670] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/ament_index/resource_index/parent_prefix_path/nav_interfaces\n'}
+[10.993853] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/ament_prefix_path.sh\n'}
+[10.994091] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.994273] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/path.sh\n'}
+[10.994549] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/path.dsv\n'}
+[10.994781] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/local_setup.bash\n'}
+[10.995019] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/local_setup.sh\n'}
+[10.995183] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/local_setup.zsh\n'}
+[10.995490] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/local_setup.dsv\n'}
+[10.995760] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/package.dsv\n'}
+[10.995934] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/ament_index/resource_index/packages/nav_interfaces\n'}
+[10.996256] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.996539] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.996716] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.996953] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.997242] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.997509] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.997710] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.997999] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.998443] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.998771] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.999008] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.999460] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.999701] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.000194] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.002352] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.002561] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_pyExport.cmake\n'}
+[11.002657] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.002742] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.002824] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.002904] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.003037] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.003118] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.003263] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.003436] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.003530] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfacesConfig.cmake\n'}
+[11.003612] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfacesConfig-version.cmake\n'}
+[11.003692] (nav_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/package.xml\n'}
+[11.005857] (-) TimerEvent: {}
+[11.007966] (nav_interfaces) CommandEnded: {'returncode': 0}
+[11.039678] (nav_interfaces) JobEnded: {'identifier': 'nav_interfaces', 'rc': 0}
+[11.040325] (nav_pkg) JobStarted: {'identifier': 'nav_pkg'}
+[11.143718] (-) TimerEvent: {}
+[11.247876] (-) TimerEvent: {}
+[11.348723] (-) TimerEvent: {}
+[11.458439] (-) TimerEvent: {}
+[11.559427] (-) TimerEvent: {}
+[11.665375] (-) TimerEvent: {}
+[11.771488] (-) TimerEvent: {}
+[11.881452] (-) TimerEvent: {}
+[11.982956] (-) TimerEvent: {}
+[12.084679] (-) TimerEvent: {}
+[12.186221] (-) TimerEvent: {}
+[12.191386] (nav_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/nav_pkg', 'build', '--build-base', '/home/vboxuser/ros_ws/build/nav_pkg/build', 'install', '--record', '/home/vboxuser/ros_ws/build/nav_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ros_ws/src/nav_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/ros_ws/install/nav_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/ros_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1480', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu1:@/tmp/.ICE-unix/1453,unix/Ubuntu1:/tmp/.ICE-unix/1453', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5ffbd5d1_2921_4283_9cf7_9a4b581f0236', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1SP8N3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/nav_interfaces:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros_ws/build/nav_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros_ws/build/nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/vision_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages:/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/ros_ws/install/chat_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/ros_ws/install/nav_interfaces'}, 'shell': False}
+[12.289042] (-) TimerEvent: {}
+[12.392657] (-) TimerEvent: {}
+[12.498023] (-) TimerEvent: {}
+[12.611318] (-) TimerEvent: {}
+[12.705575] (nav_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[12.706932] (nav_pkg) StdoutLine: {'line': b'creating ../../build/nav_pkg/nav_pkg.egg-info\n'}
+[12.707471] (nav_pkg) StdoutLine: {'line': b'writing ../../build/nav_pkg/nav_pkg.egg-info/PKG-INFO\n'}
+[12.708026] (nav_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/nav_pkg/nav_pkg.egg-info/dependency_links.txt\n'}
+[12.708336] (nav_pkg) StdoutLine: {'line': b'writing entry points to ../../build/nav_pkg/nav_pkg.egg-info/entry_points.txt\n'}
+[12.708853] (nav_pkg) StdoutLine: {'line': b'writing requirements to ../../build/nav_pkg/nav_pkg.egg-info/requires.txt\n'}
+[12.709039] (nav_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/nav_pkg/nav_pkg.egg-info/top_level.txt\n'}
+[12.709501] (nav_pkg) StdoutLine: {'line': b"writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'\n"}
+[12.712187] (nav_pkg) StdoutLine: {'line': b"reading manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'\n"}
+[12.712410] (-) TimerEvent: {}
+[12.713665] (nav_pkg) StdoutLine: {'line': b"writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'\n"}
+[12.714074] (nav_pkg) StdoutLine: {'line': b'running build\n'}
+[12.714290] (nav_pkg) StdoutLine: {'line': b'running build_py\n'}
+[12.714777] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/nav_pkg/build\n'}
+[12.714999] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/nav_pkg/build/lib\n'}
+[12.715298] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg\n'}
+[12.715603] (nav_pkg) StdoutLine: {'line': b'copying nav_pkg/commander.py -> /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg\n'}
+[12.715921] (nav_pkg) StdoutLine: {'line': b'copying nav_pkg/navigator.py -> /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg\n'}
+[12.716378] (nav_pkg) StdoutLine: {'line': b'copying nav_pkg/__init__.py -> /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg\n'}
+[12.716898] (nav_pkg) StdoutLine: {'line': b'running install\n'}
+[12.717441] (nav_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[12.719150] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg\n'}
+[12.719577] (nav_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg/commander.py -> /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg\n'}
+[12.719939] (nav_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg/navigator.py -> /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg\n'}
+[12.720072] (nav_pkg) StdoutLine: {'line': b'copying /home/vboxuser/ros_ws/build/nav_pkg/build/lib/nav_pkg/__init__.py -> /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg\n'}
+[12.722200] (nav_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg/commander.py to commander.cpython-310.pyc\n'}
+[12.723895] (nav_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg/navigator.py to navigator.cpython-310.pyc\n'}
+[12.724728] (nav_pkg) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[12.725148] (nav_pkg) StdoutLine: {'line': b'running install_data\n'}
+[12.725656] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index\n'}
+[12.726015] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index/resource_index\n'}
+[12.726222] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index/resource_index/packages\n'}
+[12.726531] (nav_pkg) StdoutLine: {'line': b'copying resource/nav_pkg -> /home/vboxuser/ros_ws/install/nav_pkg/share/ament_index/resource_index/packages\n'}
+[12.726907] (nav_pkg) StdoutLine: {'line': b'copying package.xml -> /home/vboxuser/ros_ws/install/nav_pkg/share/nav_pkg\n'}
+[12.727098] (nav_pkg) StdoutLine: {'line': b'creating /home/vboxuser/ros_ws/install/nav_pkg/share/nav_pkg/msg\n'}
+[12.727267] (nav_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.730444] (nav_pkg) StdoutLine: {'line': b'Copying ../../build/nav_pkg/nav_pkg.egg-info to /home/vboxuser/ros_ws/install/nav_pkg/lib/python3.10/site-packages/nav_pkg-0.0.0-py3.10.egg-info\n'}
+[12.732308] (nav_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[12.771796] (nav_pkg) StdoutLine: {'line': b'Installing commander script to /home/vboxuser/ros_ws/install/nav_pkg/lib/nav_pkg\n'}
+[12.772283] (nav_pkg) StdoutLine: {'line': b'Installing navigator script to /home/vboxuser/ros_ws/install/nav_pkg/lib/nav_pkg\n'}
+[12.772789] (nav_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros_ws/build/nav_pkg/install.log'\n"}
+[12.808730] (nav_pkg) CommandEnded: {'returncode': 0}
+[12.812788] (-) TimerEvent: {}
+[12.820149] (nav_pkg) JobEnded: {'identifier': 'nav_pkg', 'rc': 0}
+[12.820975] (-) EventReactorShutdown: {}

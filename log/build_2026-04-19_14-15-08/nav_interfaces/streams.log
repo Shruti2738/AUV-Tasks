@@ -1,0 +1,235 @@
+[0.067s] Invoking command in '/home/vboxuser/ros_ws/build/nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/nav_interfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/install/nav_interfaces
+[0.860s] -- The C compiler identification is GNU 11.4.0
+[0.860s] -- The CXX compiler identification is GNU 11.4.0
+[0.863s] -- Detecting C compiler ABI info
+[0.864s] -- Detecting C compiler ABI info - done
+[0.864s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.864s] -- Detecting C compile features
+[0.864s] -- Detecting C compile features - done
+[0.865s] -- Detecting CXX compiler ABI info
+[0.870s] -- Detecting CXX compiler ABI info - done
+[0.870s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.870s] -- Detecting CXX compile features
+[0.870s] -- Detecting CXX compile features - done
+[0.870s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.223s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.408s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.422s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.515s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.789s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.791s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.883s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.883s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.883s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.884s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.968s] -- Found PythonExtra: .so  
+[4.192s] -- Configuring done
+[4.250s] -- Generating done
+[4.275s] -- Build files have been written to: /home/vboxuser/ros_ws/build/nav_interfaces
+[4.295s] Invoked command in '/home/vboxuser/ros_ws/build/nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble /usr/bin/cmake /home/vboxuser/ros_ws/src/nav_interfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros_ws/install/nav_interfaces
+[4.301s] Invoking command in '/home/vboxuser/ros_ws/build/nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/build/nav_interfaces -- -j3 -l3
+[4.396s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.417s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.427s] [  9%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.229s] [ 12%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nav_interfaces/msg/detail/bot_pose__functions.c.o[0m
+[5.269s] [ 12%] Built target nav_interfaces__cpp
+[5.291s] [ 12%] Built target nav_interfaces__rs
+[5.322s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.344s] [ 15%] Built target ament_cmake_python_copy_nav_interfaces
+[5.350s] [ 18%] [32m[1mLinking C shared library libnav_interfaces__rosidl_generator_c.so[0m
+[5.368s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.435s] [ 21%] Built target nav_interfaces__rosidl_generator_c
+[5.457s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.996s] [ 28%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_interfaces/msg/detail/bot_pose__type_support.cpp.o[0m
+[6.086s] [ 31%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_interfaces/msg/bot_pose__type_support.cpp.o[0m
+[6.285s] [ 34%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_interfaces/msg/detail/dds_fastrtps/bot_pose__type_support.cpp.o[0m
+[7.010s] [ 37%] [32m[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_cpp.so[0m
+[7.113s] [ 37%] Built target nav_interfaces__rosidl_typesupport_cpp
+[7.138s] [ 40%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.143s] [ 43%] [32m[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.323s] [ 43%] Built target nav_interfaces__rosidl_typesupport_introspection_cpp
+[7.373s] [ 46%] [32m[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.605s] [ 46%] Built target nav_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.626s] [ 50%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.902s] [ 53%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_interfaces/msg/bot_pose__type_support.cpp.o[0m
+[7.964s] [ 56%] [32m[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_c.so[0m
+[8.041s] running egg_info
+[8.048s] creating nav_interfaces.egg-info
+[8.048s] writing nav_interfaces.egg-info/PKG-INFO
+[8.049s] writing dependency_links to nav_interfaces.egg-info/dependency_links.txt
+[8.049s] writing top-level names to nav_interfaces.egg-info/top_level.txt
+[8.049s] writing manifest file 'nav_interfaces.egg-info/SOURCES.txt'
+[8.049s] reading manifest file 'nav_interfaces.egg-info/SOURCES.txt'
+[8.052s] writing manifest file 'nav_interfaces.egg-info/SOURCES.txt'
+[8.070s] [ 56%] Built target nav_interfaces__rosidl_typesupport_c
+[8.087s] [ 59%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.120s] [ 59%] Built target ament_cmake_python_build_nav_interfaces_egg
+[8.277s] [ 62%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_interfaces/msg/detail/bot_pose__type_support.c.o[0m
+[8.357s] [ 65%] [32m[1mLinking C shared library libnav_interfaces__rosidl_typesupport_introspection_c.so[0m
+[8.414s] [ 65%] Built target nav_interfaces__rosidl_typesupport_introspection_c
+[8.600s] [ 68%] [32mBuilding CXX object CMakeFiles/nav_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_interfaces/msg/detail/bot_pose__type_support_c.cpp.o[0m
+[9.245s] [ 71%] [32m[1mLinking CXX shared library libnav_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.457s] [ 71%] Built target nav_interfaces__rosidl_typesupport_fastrtps_c
+[9.496s] [ 71%] Built target nav_interfaces
+[9.534s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.172s] [ 75%] Built target nav_interfaces__py
+[10.209s] [ 78%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nav_interfaces/msg/_bot_pose_s.c.o[0m
+[10.403s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/nav_interfaces/libnav_interfaces__rosidl_generator_py.so[0m
+[10.473s] [ 81%] Built target nav_interfaces__rosidl_generator_py
+[10.514s] [ 84%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.520s] [ 87%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.520s] [ 90%] [32mBuilding C object CMakeFiles/nav_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.725s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/nav_interfaces/nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.734s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/nav_interfaces/nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.769s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav_interfaces/nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.798s] [100%] Built target nav_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.815s] [100%] Built target nav_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.832s] [100%] Built target nav_interfaces__rosidl_typesupport_c__pyext
+[10.858s] Invoked command in '/home/vboxuser/ros_ws/build/nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros_ws/build/nav_interfaces -- -j3 -l3
+[10.874s] Invoking command in '/home/vboxuser/ros_ws/build/nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/build/nav_interfaces
+[10.889s] -- Install configuration: ""
+[10.889s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/ament_index/resource_index/rosidl_interfaces/nav_interfaces
+[10.889s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces
+[10.890s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg
+[10.890s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.891s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail
+[10.891s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__functions.c
+[10.891s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__functions.h
+[10.891s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__struct.h
+[10.892s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__type_support.h
+[10.892s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/bot_pose.h
+[10.893s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/library_path.sh
+[10.893s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/library_path.dsv
+[10.893s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_c.so
+[10.893s] -- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_c.so" to ""
+[10.893s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces
+[10.893s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg
+[10.894s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.894s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail
+[10.894s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__rosidl_typesupport_fastrtps_c.h
+[10.894s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.894s] -- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.894s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces
+[10.895s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg
+[10.895s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.895s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail
+[10.895s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__type_support.c
+[10.895s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__rosidl_typesupport_introspection_c.h
+[10.896s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_c.so
+[10.896s] -- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.896s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_c.so
+[10.896s] -- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_c.so" to ""
+[10.896s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces
+[10.896s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg
+[10.897s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.897s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail
+[10.897s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__traits.hpp
+[10.897s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__builder.hpp
+[10.897s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__type_support.hpp
+[10.897s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__struct.hpp
+[10.898s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/bot_pose.hpp
+[10.898s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces
+[10.898s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg
+[10.898s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.898s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail
+[10.898s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/dds_fastrtps
+[10.899s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[10.899s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.899s] -- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.899s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces
+[10.899s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg
+[10.900s] -- Up-to-date: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail
+[10.900s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__rosidl_typesupport_introspection_cpp.hpp
+[10.900s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/include/nav_interfaces/nav_interfaces/msg/detail/bot_pose__type_support.cpp
+[10.900s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.900s] -- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.900s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_cpp.so
+[10.901s] -- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_typesupport_cpp.so" to ""
+[10.901s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/pythonpath.sh
+[10.901s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/pythonpath.dsv
+[10.902s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info
+[10.902s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[10.902s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.903s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[10.903s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.904s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces
+[10.904s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/libnav_interfaces__rosidl_generator_py.so
+[10.904s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_c.c
+[10.905s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.905s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.906s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.906s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg
+[10.906s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg/_bot_pose_s.c
+[10.906s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg/__init__.py
+[10.906s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg/_bot_pose.py
+[10.907s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/__init__.py
+[10.907s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.907s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.977s] Listing '/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces'...
+[10.977s] Compiling '/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/__init__.py'...
+[10.977s] Listing '/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg'...
+[10.978s] Compiling '/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg/__init__.py'...
+[10.978s] Compiling '/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/msg/_bot_pose.py'...
+[10.986s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.986s] -- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.986s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.986s] -- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.987s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.987s] -- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/local/lib/python3.10/dist-packages/nav_interfaces/nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.988s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_py.so
+[10.988s] -- Set runtime path of "/home/vboxuser/ros_ws/install/nav_interfaces/lib/libnav_interfaces__rosidl_generator_py.so" to ""
+[10.989s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/ament_index/resource_index/rust_packages/nav_interfaces
+[10.989s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust
+[10.989s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/build.rs
+[10.989s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/Cargo.toml
+[10.989s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/src
+[10.989s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/src/lib.rs
+[10.990s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/src/msg.rs
+[10.990s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/src/msg
+[10.990s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/rust/src/msg/rmw.rs
+[10.990s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/msg/BotPose.idl
+[10.990s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/msg/BotPose.msg
+[10.991s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/ament_index/resource_index/package_run_dependencies/nav_interfaces
+[10.991s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/ament_index/resource_index/parent_prefix_path/nav_interfaces
+[10.991s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/ament_prefix_path.sh
+[10.991s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/ament_prefix_path.dsv
+[10.991s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/path.sh
+[10.992s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/environment/path.dsv
+[10.992s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/local_setup.bash
+[10.992s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/local_setup.sh
+[10.992s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/local_setup.zsh
+[10.993s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/local_setup.dsv
+[10.993s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/package.dsv
+[10.993s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/ament_index/resource_index/packages/nav_interfaces
+[10.993s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_cExport.cmake
+[10.994s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.994s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.994s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.994s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.995s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.995s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cExport.cmake
+[10.995s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.996s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_cppExport.cmake
+[10.996s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.996s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.997s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.997s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.997s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cppExport.cmake
+[11.000s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.000s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_pyExport.cmake
+[11.000s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/export_nav_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.000s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.000s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.000s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.000s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.000s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.000s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.001s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.001s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfacesConfig.cmake
+[11.001s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/cmake/nav_interfacesConfig-version.cmake
+[11.001s] -- Installing: /home/vboxuser/ros_ws/install/nav_interfaces/share/nav_interfaces/package.xml
+[11.005s] Invoked command in '/home/vboxuser/ros_ws/build/nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros_ws/install/vision_pkg:/home/vboxuser/ros_ws/install/nav_pkg:/home/vboxuser/ros_ws/install/chat_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros_ws/build/nav_interfaces

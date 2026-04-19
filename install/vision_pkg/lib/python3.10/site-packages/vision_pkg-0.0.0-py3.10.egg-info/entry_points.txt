@@ -1,0 +1,3 @@
+[console_scripts]
+visual_lock = vision_pkg.visual_lock:main
+
